@@ -1,0 +1,115 @@
+
+/*Card Style*/
+.card-deck {
+    margin: 0 -15px;
+    justify-content: space-between;
+  }
+  
+  .card-deck .card {
+    margin: 0 0 1rem;
+  }
+  
+  .card-headtitle {
+      background-color: rgb(51, 204, 250);
+  }
+
+  .headtitle-left h3{
+    font-size: 22px;
+  }
+  
+  .card-body{
+      background: rgb(238, 237, 237);
+  }
+  
+  .title-card h5{
+      font-size: 18px;
+  }
+/*ON/OFF toggle style*/  
+  .toggle-btn{
+      width: 40px;
+      height: 30px;
+      background: grey;
+      border-radius: 30px;
+      padding: 5px;
+      transition: all 300ms ease-in-out;
+  }
+  
+  .toggle-btn > .inner-circle{
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 50%;
+      transition: all 300ms ease-in-out;
+  }
+  
+  .toggle-btn.active{
+      background: #00ee4f;
+  }
+  
+  .toggle-btn.active > .inner-circle{
+      margin-left: 40px;
+  }
+
+/*Chart Value style*/  
+  .chart-value{
+      font-size: 50px;
+      color: rgb(47, 223, 99);
+      text-align: center;
+  }
+
+/*Chart description style*/  
+  .chart-desc{
+      font-size: 12px;
+      text-align: center;
+  }
+  
+/*Contact form style*/  
+  .contact-form{
+      max-width: 350px;
+      margin: auto;
+      border-radius: 5px;
+      padding: 20px;
+  }
+  
+  input[type=text], input[type=number], input[type=date]{
+      width: 80px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+  }
+  
+  select{
+      width: 80px;
+      padding: 5px 3px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  
+  input[type=submit]{
+      width: 85px;
+      background: rgb(241, 139, 5);
+      color: rgb(255, 255, 255);
+      padding: 5px 5px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      font-size: 10px;
+  }
+  
+  input[type=submit]:hover{
+      background: #000;
+  }
+
+  #pdf{
+      margin-top: 43px;
+  }
+
+ 
+ 
+  
